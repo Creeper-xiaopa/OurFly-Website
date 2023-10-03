@@ -1,42 +1,90 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    padding: 50px;
+   font-family: Arial, sans-serif;
+   background-color: #f2f2f2;
+   padding: 50px;
 }
 
 h1 {
-    color: #333;
-    font-size: 36px;
-    margin-bottom: 20px;
+   color: #333;
+   font-size: 36px;
+   margin-bottom: 20px;
 }
+
+@media (max-width: 767px) {
+   h1 {
+       font-size: 32px;
+   }
+}
+
+@media (max-width: 560px) {
+   h1 {
+       font-size: 28px;
+   }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+ }
 
 h2 {
-    color: #333;
-    font-size: 30px;
-    margin-bottom: 10px;
+   color: #333;
+   font-size: 30px;
+   margin-bottom: 10px;
 }
 
+@media (max-width: 767px) {
+   h2 {
+       font-size: 26px;
+   }
+}
+
+@media (max-width: 560px) {
+   h2 {
+       font-size: 22px;
+   }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 18px;
+    }
+ }
+
 p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 20px;
+   font-size: 16px;
+   line-height: 1.5;
+   margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+   p {
+       font-size: 14px;
+   }
+}
+
+@media (max-width: 480px) {
+   p {
+       font-size: 12px;
+   }
 }
 
 a {
-    color: #007bff;
-    text-decoration: none;
+   color: #007bff;
+   text-decoration: none;
 }
 
 a:hover {
-    color: #0056b3;
+   color: #0056b3;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 20px;
 }
 
 .section {
-    margin-bottom: 40px;
+   margin-bottom: 40px;
 }
